@@ -465,11 +465,11 @@
 			},
 			"SynapseWorkspaceName": {
 				"type": "string",
-				"defaultValue": "msf3ie77wmqfc372pocws1"
+				"defaultValue": " msf3ie77wmqfc372pocws1.sql.azuresynapse.net"
 			},
 			"SQLDedicatedPoolName": {
 				"type": "string",
-				"defaultValue": "<sql-dedicatmsf3ie77wmqfc372pocws1p1 (msf3ie77wmqfc372pocws1/msf3ie77wmqfc372pocws1p1)ed-pool-name>"
+				"defaultValue": "msf3ie77wmqfc372pocws1p1"
 			},
 			"SQLLoginUsername": {
 				"type": "string",
