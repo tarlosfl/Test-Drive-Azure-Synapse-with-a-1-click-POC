@@ -511,11 +511,11 @@
 					},
 					"SynapseWorkspaceName": {
 						"type": "string",
-						"defaultValue": "msf3ie77wmqfc372pocws1"
+						"defaultValue": " msf3ie77wmqfc372pocws1.sql.azuresynapse.net"
 					},
 					"SQLDedicatedPoolName": {
 						"type": "string",
-						"defaultValue": "<sql-dedicatmsf3ie77wmqfc372pocws1p1 (msf3ie77wmqfc372pocws1/msf3ie77wmqfc372pocws1p1)ed-pool-name>"
+						"defaultValue": "msf3ie77wmqfc372pocws1p1"
 					},
 					"SQLLoginUsername": {
 						"type": "string",
@@ -1315,14 +1315,13 @@
 					"conf": {
 						"spark.dynamicAllocation.enabled": "false",
 						"spark.dynamicAllocation.minExecutors": "2",
-						"spark.dynamicAllocation.maxExecutors": "2"
+						"spark.dynamicAllocation.maxExecutors": "2",
+						"spark.autotune.trackingId": "a82494f1-2023-48f2-8ef3-ebf2beb8d24c"
 					}
 				},
 				"metadata": {
 					"saveOutput": true,
-					"synapse_widget": {
-						"version": "0.1"
-					},
+					"enableDebugMode": false,
 					"kernelspec": {
 						"name": "synapse_pyspark",
 						"display_name": "Synapse PySpark"
@@ -1331,10 +1330,10 @@
 						"name": "python"
 					},
 					"a365ComputeOptions": {
-						"id": "/subscriptions/4eeedd72-d937-4243-86d1-c3982a84d924/resourceGroups/nashahzsfin/providers/Microsoft.Synapse/workspaces/mfstspdjvzuh3xeu2pocws1/bigDataPools/ws1sparkpool1",
+						"id": "/subscriptions/72fbc1de-496e-4769-818c-3f6cbbd6b32f/resourceGroups/rg-synapse-demo/providers/Microsoft.Synapse/workspaces/msf3ie77wmqfc372pocws1/bigDataPools/ws1sparkpool1",
 						"name": "ws1sparkpool1",
 						"type": "Spark",
-						"endpoint": "https://mfstspdjvzuh3xeu2pocws1.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/ws1sparkpool1",
+						"endpoint": "https://msf3ie77wmqfc372pocws1.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/ws1sparkpool1",
 						"auth": {
 							"type": "AAD",
 							"authResource": "https://dev.azuresynapse.net"
@@ -1601,7 +1600,7 @@
 							"print(\"Area under ROC = %s\" % metrics.areaUnderROC)"
 						],
 						"outputs": [],
-						"execution_count": 10
+						"execution_count": 9
 					},
 					{
 						"cell_type": "markdown",
